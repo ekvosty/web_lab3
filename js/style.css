@@ -1,0 +1,43 @@
+section
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 400px;
+}
+
+section > form 
+{
+	display: flex;
+	flex-direction: column;
+}
+
+section > form > * 
+{
+	margin-top: 15px;
+}
+
+textarea
+{
+	text-align: center;
+	width: 300px;
+}
+
+.workblock
+{
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+.workblock > *
+{
+	margin: 2px 0;
+	padding: 0;
+}
+
+#worksearch
+{
+	margin-bottom: 10px;
+}
